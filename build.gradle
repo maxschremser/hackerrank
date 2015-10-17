@@ -1,0 +1,19 @@
+repositories {
+    mavenCentral()
+}
+
+group = 'com.schremser.hackerrank'
+version = '0.0.1-snapshot'
+
+apply plugin: 'java'
+apply plugin: 'groovy'
+apply plugin: 'idea'
+
+dependencies {
+    // Groovy
+    compile 'org.codehaus.groovy:groovy-all:2.3.10'
+
+    // Test Classes
+    testCompile 'junit:junit:4.11'
+}
+
